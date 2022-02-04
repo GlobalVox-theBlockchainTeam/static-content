@@ -16666,3 +16666,7 @@ body {
     color : white;
 }
 /*new design css end*/
+
+.rotate-close {
+    transform: rotate(45deg);
+}
