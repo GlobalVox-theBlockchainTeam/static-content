@@ -16282,6 +16282,8 @@ body {
     align-items: center;
     flex: 1 0 auto;
     line-height: normal;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tbd-ed-live-action {
@@ -16292,6 +16294,18 @@ body {
     margin-left: 5px;
     cursor: pointer;
     color: #fff;
+}
+
+.tbd-live-auction-time {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.info-block {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .tbd-ed-live-action img {
@@ -16431,6 +16445,11 @@ body {
     }
 }
 
+span.tbd-ed-live-time {
+    display: flex;
+    min-width: 60px;
+    align-items: center;
+}
 .tbd-ed-live-time,.tbd-ed-bid-action {
     font-size: 1.2rem;
     padding: 4px 6px 2px;
@@ -16499,6 +16518,8 @@ body {
     flex-basis: min-content;
     margin-left: 15px;
     flex : 0.7;
+    min-width: 260px;
+    max-width: 260px;
 }
 
 .tbd-ed-bid-name {
