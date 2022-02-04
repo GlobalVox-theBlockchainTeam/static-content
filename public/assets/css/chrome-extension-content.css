@@ -76,7 +76,7 @@
 }
 .tbd-extension-popup-content {
     width: 100%;
-    max-width: 250px;
+    max-width: 500px;
     border: 2px solid #d9dada;
     background: #f3f3f3;
     height: auto;
@@ -225,8 +225,7 @@ html.tbdPushParent body.tbdPush{
 }
 
 
-/* Plus button popup dialog */
-
+/* connect wallet popup dialog */
 
 
 /* connect wallet popup */
@@ -299,6 +298,7 @@ html.tbdPushParent body.tbdPush{
     text-transform: uppercase;
     width: 100%;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .tbd-extension-connect-wallet-popup-content:before {
     content: '';
@@ -310,7 +310,7 @@ html.tbdPushParent body.tbdPush{
     border-color: transparent transparent #f3f3f3 transparent;
 }
 
-.tbd-extension-bottom-connect-wallet-popup-wrap {
+.tbd-extension-bottom-popup-wrap {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -331,11 +331,11 @@ html.tbdPushParent body.tbdPush{
     background: rgba(0, 0, 0, 0.7);
 }
 
-.tbd-extension-bottom-connect-wallet-popup-wrap .tbd-extension-popup-block {
+.tbd-extension-bottom-popup-wrap .tbd-extension-popup-block {
     align-items: flex-end; height:calc(100% - 60px); z-index: 2;
 }
 
-.tbd-extension-bottom-connect-wallet-popup-wrap .tbd-extension-popup-content::before {
+.tbd-extension-bottom-popup-wrap .tbd-extension-popup-content::before {
     border-width: 10px 0px 10px 10px;
     /* top: 104%; */
     transform: rotate(90deg);
@@ -366,16 +366,16 @@ div#radio-group {
 .radiodiv {
     display: flex;
     position: relative;
-    margin-bottom: 10px;
 }
 
 .tbd-extension-connect-wallet-popup input[type="radio"] {
     position: absolute;
     opacity: 0;
-    width: 30px;
-    height: 30px;
-    top: -3px;
+    width: 35px;
+    height: 35px;
+    top: -2px;
     left: -5px;
+    cursor: pointer;
 }
   
 input[type=radio]:checked + label>img {
@@ -395,4 +395,27 @@ input[type=radio] + label>img {
     padding: 2px;
 }
 
+.input-icon-block {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
+.input-icon-block .icon {
+    padding: 0px 5px 0px 0px;
+}
+
+span.wallet-value {
+    font-size: 12px;
+    margin: 5px 0px;
+    font-weight: 600;
+    color: #847e77;
+}
+.select-wallet-title{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+input[disabled]{
+    background-color: #ebebeb !important; cursor: not-allowed; 
+}
