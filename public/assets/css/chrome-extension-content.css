@@ -420,3 +420,44 @@ input[disabled]{
     background-color: #ebebeb !important; cursor: not-allowed; 
 }
 
+/* connect wallet winning popup */
+.tbd-extension-winning-popup-wrap {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    /* background: rgba(0,0,0,0.7) */
+}
+.tbd-extension-winning-popup-block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+.tbd-extension-winning-popup-content {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #d9dada;
+    background: #f3f3f3;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin: 0 auto;
+    /* margin-right: 30px; */
+    position: relative;
+}
+
+.tbd-extension-winning-popup {
+    margin: 0 auto;
+    text-align: center;
+}
