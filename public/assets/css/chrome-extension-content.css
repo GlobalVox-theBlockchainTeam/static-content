@@ -86,7 +86,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    margin-right: 58px;
+    margin-right: 60px;
     position: relative;
 }
 .input-block {
@@ -225,8 +225,7 @@ html.tbdPushParent body.tbdPush{
 }
 
 
-/* connect wallet popup dialog */
-
+/*connect wallet popup dialog */
 
 /* connect wallet popup */
 .tbd-extension-connect-wallet-popup-wrap {
@@ -260,7 +259,7 @@ html.tbdPushParent body.tbdPush{
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    margin-right: 93px;
+    margin-right: 95px;
     position: relative;
 }
 .input-block {
@@ -310,7 +309,7 @@ html.tbdPushParent body.tbdPush{
     border-color: transparent transparent #f3f3f3 transparent;
 }
 
-.tbd-extension-bottom-popup-wrap {
+.tbd-extension-connect-wallet-bottom-popup-wrap {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -331,11 +330,11 @@ html.tbdPushParent body.tbdPush{
     background: rgba(0, 0, 0, 0.7);
 }
 
-.tbd-extension-bottom-popup-wrap .tbd-extension-popup-block {
+.tbd-extension-connect-wallet-bottom-popup-wrap .tbd-extension-connect-wallet-popup-block {
     align-items: flex-end; height:calc(100% - 60px); z-index: 2;
 }
 
-.tbd-extension-bottom-popup-wrap .tbd-extension-popup-content::before {
+.tbd-extension-connect-wallet-bottom-popup-wrap .tbd-extension-connect-wallet-popup-content::before {
     border-width: 10px 0px 10px 10px;
     /* top: 104%; */
     transform: rotate(90deg);
