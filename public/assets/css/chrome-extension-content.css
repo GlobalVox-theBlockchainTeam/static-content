@@ -1,3 +1,9 @@
+/**/
+iframe#tbd-extension {
+    z-index: 9999999999;
+}
+/**/
+
 .tbd-Hextension {
     width: 100%;
     position: fixed;
