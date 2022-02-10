@@ -16700,3 +16700,13 @@ span.tbd-ed-live-time {
 .rotate-close {
     transform: rotate(45deg);
 }
+
+.tbd-Hheader-additional-info {
+    margin-left: 85px;
+    position: absolute;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
