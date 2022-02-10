@@ -16717,6 +16717,7 @@ span.tbd-ed-live-time {
     align-items: center;
 }
 .tbd-Hheader-additional-info-btn {
+    margin : 5px;
     height: 33px;
     padding: 5px 5px;
     background: white;
