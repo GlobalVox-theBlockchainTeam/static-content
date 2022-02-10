@@ -16715,6 +16715,7 @@ span.tbd-ed-live-time {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index : 999999999;
 }
 .tbd-Hheader-additional-info-btn {
     margin : 5px;
