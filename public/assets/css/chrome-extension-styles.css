@@ -16710,3 +16710,6 @@ span.tbd-ed-live-time {
     height: 100%;
     text-align: center;
 }
+.Hheader{
+    display: flex;
+}
