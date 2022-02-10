@@ -530,9 +530,20 @@ input[disabled]{
     justify-content: space-between;
     font-size: 14px;
     text-align: center;
+    align-items: center;
 }
 
 .tbd-extension-auctions-popup-product-list-ul{
     padding: 0px 0px;
     width: 100%;
+}
+
+.like-img{
+    max-width : 15px
+}
+
+.lik-img-container{
+    width: 100%;
+    display: flex;
+    /* justify-content: unset; */
 }
