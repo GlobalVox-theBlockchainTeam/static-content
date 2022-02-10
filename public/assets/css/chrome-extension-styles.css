@@ -16704,17 +16704,18 @@ span.tbd-ed-live-time {
 .tbd-Hheader-additional-info {
     margin-left: 85px;
     position: absolute;
-    font-size: 10px;
+    font-size: 9px;
     display: flex;
     align-items: center;
     height: 100%;
     text-align: center;
 }
 
-.Hheader{
+.Hheader {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
 .tbd-Hheader-additional-info-btn {
     height: 33px;
     padding: 5px 5px;
@@ -16723,4 +16724,5 @@ span.tbd-ed-live-time {
     background-color: #162459;
     color: white;
     border: solid white 1px;
+    line-height: initial;
 }
