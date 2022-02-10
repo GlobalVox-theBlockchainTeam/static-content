@@ -551,3 +551,31 @@ input[disabled]{
 .product-img{
     max-width: 30px;
 }
+
+
+
+.tbd-extension-connect-auctions-popup-content-product{
+    width: 100%;
+    max-width: 250px;
+    border: 2px solid #d9dada;
+    background: #f3f3f3;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.tbd-extension-connect-auctions-popup-content-product:before {
+    content: '';
+    position: absolute;
+    left: calc(62%);
+    top: -10px;
+    border-width: 0px 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #f3f3f3 transparent;
+}
