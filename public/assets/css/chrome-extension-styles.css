@@ -16727,3 +16727,7 @@ span.tbd-ed-live-time {
     border: solid white 1px;
     line-height: initial;
 }
+
+.tbd-Hheader-additional-info-btn:hover{
+    cursor: pointer;
+}
