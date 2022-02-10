@@ -547,3 +547,7 @@ input[disabled]{
     display: flex;
     /* justify-content: unset; */
 }
+
+.product-img{
+    max-width: 30px;
+}
