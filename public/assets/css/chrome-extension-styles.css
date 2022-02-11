@@ -15394,7 +15394,7 @@ img {
 
 .tbd-extension-title-block h3 {
     font-size: 1.2rem;
-    /* font-weight: 600; */
+    font-weight: 600;
     margin-bottom: 5px;
     line-height: 1.4;
 }
@@ -15425,7 +15425,7 @@ img {
 
 .tbd-auth-form-block {
     align-self: flex-start;
-    width: 100%;
+    width: 88%;
     max-width: inherit;
     position: relative;
     z-index: 1;
@@ -15588,7 +15588,7 @@ textarea:focus {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    /* padding-bottom: 8px; */
+    padding-bottom: 8px;
     flex-wrap: wrap;
 }
 
@@ -16738,8 +16738,8 @@ span.tbd-ed-live-time {
 .tbd-close-extension-icon {
     max-width: 30px;
     position: absolute;
-    margin-top: -107px;
-    margin-left: 87%;
+    margin-top: -124px;
+    margin-left: 82%;
 }
 .tbd-close-extension-icon:hover{
     cursor: pointer;
