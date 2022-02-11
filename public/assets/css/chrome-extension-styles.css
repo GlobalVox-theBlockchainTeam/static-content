@@ -16746,4 +16746,8 @@ span.tbd-ed-live-time {
     text-align: center;
     letter-spacing: 1px;
     margin-top: -11px;
+    color: white;
+}
+.tbd-win-play-big span {
+    color: #4f619a;
 }
