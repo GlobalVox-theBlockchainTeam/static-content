@@ -15509,13 +15509,14 @@ textarea:focus {
     border: none;
     cursor: pointer;
     padding: 8px 10px;
-    color: #192151;
-    border-radius: 3px;
+    color: white;
+    border-radius: 47px;
     font-size: .85rem;
     font-weight: 600;
+    background-color: #192151;
     font-family: 'Comfortaa';
-    border: 1px solid #192151;
-    width: auto;
+    border: 1px solid white;
+    width: 100%;
 }
 
 .tbd-auth-form h2 {
