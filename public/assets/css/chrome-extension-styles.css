@@ -16732,3 +16732,12 @@ span.tbd-ed-live-time {
 .tbd-Hheader-additional-info-btn:hover{
     cursor: pointer;
 }
+
+/* new design */
+
+.tbd-close-extension-icon {
+    max-width: 30px;
+    position: absolute;
+    margin-top: -128px;
+    margin-left: 82%;
+}
