@@ -15526,12 +15526,13 @@ textarea:focus {
 .form-bottom-link a {
     text-decoration: none;
     color: #192151;
-    font-size: .75rem;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1;
     display: flex;
+    margin-bottom: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form-bottom-link a {
@@ -16753,4 +16754,17 @@ span.tbd-ed-live-time {
 }
 .tbd-win-play-big span {
     color: #4f619a;
+}
+
+.tbd-auth-form h2,
+.form-bottom-link a {
+    text-decoration: none;
+    color: #192151;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
