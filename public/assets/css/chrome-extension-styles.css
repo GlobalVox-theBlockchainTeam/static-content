@@ -15425,7 +15425,7 @@ img {
 
 .tbd-auth-form-block {
     align-self: flex-start;
-    width: 100%;
+    width: 90%;
     max-width: inherit;
     position: relative;
     z-index: 1;
