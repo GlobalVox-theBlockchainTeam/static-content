@@ -579,3 +579,12 @@ input[disabled]{
     border-style: solid;
     border-color: transparent transparent #f3f3f3 transparent;
 }
+
+.tbd-Vextension-close-div{
+    position: absolute;
+    background: black;
+    width: 77%;
+    height: 100%;
+    z-index: 99999999;
+    opacity: 0.5;
+}
