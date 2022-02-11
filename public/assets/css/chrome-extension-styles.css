@@ -16738,8 +16738,11 @@ span.tbd-ed-live-time {
 .tbd-close-extension-icon {
     max-width: 30px;
     position: absolute;
-    margin-top: -128px;
+    margin-top: -124px;
     margin-left: 82%;
+}
+.tbd-close-extension-icon:hover{
+    cursor: pointer;
 }
 
 .tbd-win-play-big {
