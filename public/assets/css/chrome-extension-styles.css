@@ -15367,7 +15367,7 @@ img {
 .tbd-extension-block {
     display: flex;
     align-items: center;
-    padding: 0 5px 0 5px;
+    padding: 0 20px 0 10px;
     background: #c0c0c0;
 }
 
@@ -15588,7 +15588,7 @@ textarea:focus {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
     flex-wrap: wrap;
 }
 
