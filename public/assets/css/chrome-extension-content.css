@@ -581,7 +581,7 @@ input[disabled]{
 }
 
 .tbd-Vextension-close-div{
-    position: absolute;
+    position: fixed;
     background: black;
     width: 77%;
     height: 100%;
