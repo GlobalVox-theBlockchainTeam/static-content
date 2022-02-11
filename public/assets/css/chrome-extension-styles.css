@@ -15394,7 +15394,7 @@ img {
 
 .tbd-extension-title-block h3 {
     font-size: 1.2rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin-bottom: 5px;
     line-height: 1.4;
 }
@@ -15425,7 +15425,7 @@ img {
 
 .tbd-auth-form-block {
     align-self: flex-start;
-    width: 88%;
+    width: 100%;
     max-width: inherit;
     position: relative;
     z-index: 1;
@@ -15459,12 +15459,11 @@ img {
     position: relative;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
-    margin-bottom: .8em;
-    background-color: #fff3;
-    border: 1px solid #a6a7a7;
+    margin-bottom: 0.8em;
+    background-color: white;
+    border: none;
     font-size: .8em;
     padding: .7em .9em;
     -moz-transition: all .2s ease-out;
@@ -15477,9 +15476,9 @@ textarea {
     border-radius: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa';
-    border-radius: 3px;
-    font-weight: 600;
+    border-radius: 25px;
     color: #192151;
+    text-align: center;
 }
 
 input::-webkit-input-placeholder,
@@ -15588,7 +15587,7 @@ textarea:focus {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
     flex-wrap: wrap;
 }
 
@@ -16738,8 +16737,8 @@ span.tbd-ed-live-time {
 .tbd-close-extension-icon {
     max-width: 30px;
     position: absolute;
-    margin-top: -124px;
-    margin-left: 82%;
+    margin-top: -107px;
+    margin-left: 87%;
 }
 .tbd-close-extension-icon:hover{
     cursor: pointer;
